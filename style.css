@@ -1,0 +1,214 @@
+ .maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #f5f5f7;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+.display-vid{
+    display: flex;
+    flex-direction: column;
+}
+.disvidcontainer1{
+    display: flex;
+    justify-content: space-between;
+}
+.disvidcontainer2 video{
+    width: 100%;
+    height: 650px; 
+    
+}
+.disvidcontainer2{
+    width: 100%;
+    height: auto;
+}
+.knowipad-container2 img{
+    
+    position: absolute;
+}
+.knowipad-container2 p{
+    color: rgb(255, 255, 255);
+    position:relative;
+    font-size:xx-small;
+}
+.knowipad-container2 .second-para{
+    color: rgb(255, 255, 255);
+    position:relative;
+    font-size:15px;
+    width: 250px;
+}
+
+
+.knowipad-container2 .knowipad-images img{
+
+    width: 230px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.knowipad-container2{
+    display: flex;
+    width: 230px;
+    height: 560px;
+}
+.know-iPad{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.know-iPad .knowipad-container2{
+    padding: 20px;
+    margin-left: 300px;
+}
+.know-iPad .knowipad-container1{
+    
+   padding: 20px;
+    margin-left: 900px;
+}
+
+.knowipad-container2{
+    animation: slide 2s infinite alternate;
+}
+
+
+@keyframes slide{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+transform: translate(200px);
+    }
+}
+
+/* ------- */
+.iPad-essentials{
+    width: 100%;
+height: 1000px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 100px;
+}
+
+.iPad-essentials h1{
+    margin-left: -25%;
+}
+
+.iPad-essentials2{
+    display: flex;
+    gap: 30px;
+}
+.ipadessentials-contentcontiner{
+  width: 700px;
+  height: 587px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+.ipadessentials-contentcontiner a{
+    text-decoration: none;
+}
+
+/* ------------------------------------------------- */
+
+
+.why-apple{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 40px;
+     height: 600px;
+
+
+}
+.whyapple-boxes{
+animation: sliding 2s infinite alternate;
+}
+
+@keyframes sliding{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+transform: translateX(20px);
+    }
+}
+.whyapple-boxes{
+    display: flex;
+    gap:9px; 
+}
+
+.whyapple-boxes img{
+    width: 350px;
+    height: 250px;
+}
+
+/* ----------------------------------------- */
+
+.Significant-others{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    padding: 50px;
+}
+.Significant-others .significant-img{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Significant-others .significant-img img{
+    width: 1200px;
+    height: 500px;
+}
+
+
+/* --------------------------------------------- */
+
+.ipad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+.ipad .header{
+    margin-left: -20%;
+}
+.ipad-contents{
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+/* ------------------- */
+
+.footer-area{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
